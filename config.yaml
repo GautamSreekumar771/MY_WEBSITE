@@ -4,20 +4,20 @@ title: Portfolio website for Kostis Christodoulou
 theme: forty
 googleAnalytics: ''
 disqusShortname: ''
-params:
+params: 
   banner:
     buttonText: Get Started
     subtitle: |-
       A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
       AND RELEASED UNDER THE CREATIVE COMMONS.
-    title: "This is Gautam ok" 
+    title: " Gautam Sreekumar's Life " 
   blog: {}
-  contact:
-    address:
-      - city: City, ST 00000
-        country: Country
-        street: Street
-        title: Address
+  contact: +44 7879931184
+    address: 
+      - city: London, NW89HR
+        country: UK
+        street: Grove End Road
+        title: Grove End House
     buttonClear: Clear
     buttonSend: Send message
     email:
