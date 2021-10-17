@@ -42,12 +42,12 @@ params:
         text: 'Design: '
         url: https://www.html5up.net
     social:
-      - icon: fa-twitter
-        label: Twitter
-        url: https://www.twitter.com
-      - icon: fa-facebook
-        label: Facebook
-        url: https://www.facebook.com
+#      - icon: fa-twitter
+#        label: Twitter
+#        url: https://www.twitter.com
+#      - icon: fa-facebook
+#        label: Facebook
+#        url: https://www.facebook.com
       - icon: fa-instagram
         label: Instagram
         url: https://www.instagram.com/gaudhams/
@@ -58,7 +58,7 @@ params:
         label: LinkedIn
         url: https://www.linkedin.com/in/gautamsree761/
   image: ''
-  name: Gautam Sreekumar
+  name: Your Name
   navigation:
     button1:
       - name: Get Started
