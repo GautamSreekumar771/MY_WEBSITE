@@ -85,11 +85,11 @@ params:
 #        subtitle: Ipsum Dolor Sit Amet
         title: LBS Journey
         url: blogs/Aliquam
-      - image: pic02.jpg
+      - image: pic03.jpg
 #        subtitle: Feugiat Amet Tempus
         title: Essays
         url: blogs/tempus
-      - image: pic03.jpg
+      - image: pic02.jpg
 #        subtitle: Lorem Etiam Nullam
         title: Pets
         url: blogs/magna
