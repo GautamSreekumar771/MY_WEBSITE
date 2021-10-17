@@ -10,7 +10,7 @@ params:
     subtitle: |-
       An overview of Gautam's life, journey, and experience with R programming.
   
-    title: " Gautam Sreekumar's Life " 
+    title: " Gautam Sreekumar, MFA 2022 " 
   blog: {}
   contact: 
     address: 
@@ -87,7 +87,7 @@ params:
         url: blogs/Aliquam
       - image: pic02.jpg
 #        subtitle: Feugiat Amet Tempus
-        title: Hobbies
+        title: Essays
         url: blogs/tempus
       - image: pic03.jpg
 #        subtitle: Lorem Etiam Nullam
