@@ -8,8 +8,8 @@ params:
   banner:
     buttonText: Get Started
     subtitle: |-
-      A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
-      AND RELEASED UNDER THE CREATIVE COMMONS.
+      An overview of Gautam's life, journey, and experience with R programming.
+  
     title: " Gautam Sreekumar's Life " 
   blog: {}
   contact: 
@@ -21,7 +21,7 @@ params:
     buttonClear: Clear
     buttonSend: Send message
     email:
-      - email: example@domain.com
+      - email: gautamsreekumar771@gmail.com
         title: Email
     enable: yes
     phone:
@@ -35,7 +35,7 @@ params:
     text: Please visit [this page](/)
   favicon: favicon.ico
   footer:
-    copyright: Company Name
+#    copyright: Company Name
     enable: yes
     quicklinks:
       - alt: HTML5 UP
