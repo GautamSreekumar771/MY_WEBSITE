@@ -86,16 +86,16 @@ params:
         title: LBS Journey
         url: blogs/Aliquam
       - image: pic02.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Tempus
+#        subtitle: Feugiat Amet Tempus
+        title: Hobbies
         url: blogs/tempus
       - image: pic03.jpg
-        subtitle: Lorem Etiam Nullam
-        title: Magna
+#        subtitle: Lorem Etiam Nullam
+        title: Pets
         url: blogs/magna
       - image: pic04.jpg
-        subtitle: Nisl Sed Aliquam
-        title: Ipsum
+#        subtitle: Nisl Sed Aliquam
+        title: R
         url: blogs/ipsum
 #      - image: pic05.jpg
 #        subtitle: Ipsum Dolor Sit Amet
