@@ -12,7 +12,7 @@ params:
       AND RELEASED UNDER THE CREATIVE COMMONS.
     title: " Gautam Sreekumar's Life " 
   blog: {}
-  contact: +44 7879931184
+  contact: 
     address: 
       - city: London, NW89HR
         country: UK
@@ -25,7 +25,7 @@ params:
         title: Email
     enable: yes
     phone:
-      - phone: (000) 000-0000 x1234
+      - phone: +44 7879931184
         title: Phone
   custom_css: []
   custom_js: []
