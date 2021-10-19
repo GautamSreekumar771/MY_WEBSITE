@@ -84,7 +84,7 @@ params:
       - image: lbs.jpg
 #        subtitle: Ipsum Dolor Sit Amet
         title: LBS Journey
-        url: blogs/Aliquam
+        url: blogs/lbs
       - image: pic03.jpg
 #        subtitle: Feugiat Amet Tempus
         title: Essays
