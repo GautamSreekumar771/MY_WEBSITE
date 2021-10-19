@@ -85,10 +85,10 @@ params:
 #        subtitle: Ipsum Dolor Sit Amet
         title: LBS Journey
         url: blogs/lbs
-      - image: pic03.jpg
+#      - image: pic03.jpg
 #        subtitle: Feugiat Amet Tempus
-        title: Essay
-        url: blogs/essays
+#        title: Essay
+#        url: blogs/essays
       - image: pic02.jpg
 #        subtitle: Lorem Etiam Nullam
         title: Pets
@@ -103,8 +103,8 @@ params:
 #        url: blogs/ipsum
 #      - image: pic06.jpg
 #        subtitle: Feugiat Amet Tempus
-         title: Etiam
-         url: blogs/essays
+#        title: Etiam
+#        url: blogs/ipsum
   two:
     buttonText: Get Started
     enable: yes
