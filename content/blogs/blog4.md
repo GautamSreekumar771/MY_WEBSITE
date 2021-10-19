@@ -13,3 +13,5 @@ keywords: ""
 slug: lbs
 title: A Year of Adventure 
 ---
+
+When I received my acceptance letter from LBS in 2020, I was beyond ecstatic. But the icing on the cake was when LBS offered me a scholarship. I never considered myself 'scholarly', only enthusiastic, eager, and entrepreneurial.How could this be I wondered, especially when I came to campus. Everyone was accomplished, hardworking, and , above all, erudite. 
