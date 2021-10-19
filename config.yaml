@@ -103,8 +103,8 @@ params:
 #        url: blogs/ipsum
 #      - image: pic06.jpg
 #        subtitle: Feugiat Amet Tempus
-#        title: Etiam
-#        url: blogs/ipsum
+         title: Etiam
+         url: blogs/essays
   two:
     buttonText: Get Started
     enable: yes
