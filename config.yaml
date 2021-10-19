@@ -88,7 +88,7 @@ params:
       - image: pic03.jpg
 #        subtitle: Feugiat Amet Tempus
         title: Essay
-        url: blogs/essay
+        url: blogs/essays
       - image: pic02.jpg
 #        subtitle: Lorem Etiam Nullam
         title: Pets
