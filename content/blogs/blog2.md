@@ -7,7 +7,7 @@ description: Lorem Etiam Nullam
 draft: false
 image: pic09.jpg
 keywords: ""
-slug: Pets
+slug: pets
 title: Raising a Dog with Disabilities
 ---
 

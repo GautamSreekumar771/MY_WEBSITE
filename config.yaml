@@ -92,7 +92,7 @@ params:
       - image: pic02.jpg
 #        subtitle: Lorem Etiam Nullam
         title: Pets
-        url: blogs/Pets
+        url: blogs/pets
       - image: pic04.jpg
 #        subtitle: Nisl Sed Aliquam
         title: R - Risk Return
