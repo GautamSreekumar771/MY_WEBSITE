@@ -7,7 +7,7 @@ description: Lorem Etiam Nullam
 draft: false
 image: pic09.jpg
 keywords: ""
-slug: My_Pets
+slug:Pets
 title: Charlie, my pet dog's story.
 ---
 
