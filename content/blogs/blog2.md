@@ -7,8 +7,8 @@ description: Lorem Etiam Nullam
 draft: false
 image: pic09.jpg
 keywords: ""
-slug:Pets
-title: Charlie, my pet dog's story.
+slug: Pets
+title: Raising a Dog with Disabilities
 ---
 
 Rummaging through muddy backwaters as the monsoons begin gaining steam in Kerala, India, Charlie charged at me with a centripetal force that restricted his sprint to circular motions — not because of his mental prowess, but because of his inability to see and dented cerebral cortex. Charlie, my first pet dog, wasn't born with disabilities, but was, rather, a victim of lacklustre Indian roads replete with potholes as a stray. Like many strays in India, Charlie's life before rescue is unknown. As a family, all we know of is his ebullient countenance, his discernible bark, and his fondness for fruits. 
