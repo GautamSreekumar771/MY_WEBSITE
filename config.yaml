@@ -18,13 +18,13 @@ params:
         country: UK
         street: Grove End Road
         title: Grove End House
-    buttonClear: Clear
-    buttonSend: Send message
-    email: gautamsreekumar771@gmail.com
+#    buttonClear: Clear
+#    buttonSend: Send message
+#   email: 
       - email: gautamsreekumar771@gmail.com
         title: Email
-    enable: yes
-    phone:
+#   enable: yes
+#    phone:
       - phone: +44 7879931184
         title: Phone
   custom_css: []
