@@ -1,7 +1,7 @@
 ---
 title: "Youth Risk Behavior Surveillance"
 date: '2021-09-30'
-description: Exploringtemperature anomalies
+description: "Understanding the rapid increase in weight of the youth"
 draft: no
 image: yrisk.jpeg
 keywords: ''
