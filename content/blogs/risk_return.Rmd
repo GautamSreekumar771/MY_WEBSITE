@@ -2,10 +2,11 @@
 categories:
 - ""
 - ""
-date: "2017-10-31T22:42:51-05:00"
+date: "2021-09-30"
 description: Risk-Return of DJIA stocks
 draft: false
 image: spices.jpeg
+
 keywords: ""
 slug: risk_return
 title: A Year of Adventure 
@@ -30,7 +31,9 @@ knitr::opts_chunk$set(
 ```
 
 
+
 ```{r load-libraries, warning=FALSE, message=FALSE, echo=FALSE}
+library(tidyverse)  # Load ggplot2, dplyr, and all the other tidyverse packages
 library(tidyverse)  # Load ggplot2, dplyr, and all the other tidyverse packages
 library(lubridate)
 library(here)
@@ -53,21 +56,22 @@ We will use the `rvest` package to scrape the Wikipedia page for the constituent
 
 ```{r, tickers_from_wikipedia}
 djia_url <- "https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average"
-#get tables that exist on URL
+
+
+# get tables that exist on URL
 tables <- djia_url %>% 
   read_html() %>% 
   html_nodes(css="table")
+
+
 # parse HTML tables into a dataframe called djia. 
 # Use purr::map() to create a list of all tables in URL
 djia <- map(tables, . %>% 
                html_table(fill=TRUE)%>% 
                clean_names())
 
-```
 
 # constituents
-
-```{r}
 
 table1 <- djia[[2]] %>% # the second table on the page contains the ticker symbols
   mutate(date_added = ymd(date_added),
@@ -81,18 +85,16 @@ table1 <- djia[[2]] %>% # the second table on the page contains the ticker symbo
                           str_sub(symbol,7,11),
                           symbol)
          )
-
-```
-
-
-         )
 # we need a vector of strings with just the 30 tickers + SPY  + VIX
 tickers <- table1 %>% 
   select(ticker) %>% 
   pull() %>% # pull() gets them as a sting of characters
   c("SPY", "^VIX") # and lets us add SPY, the SP500 ETF, and the VIX index
-```
 
+
+
+
+```
 
 
 
@@ -105,7 +107,10 @@ myStocks <- tickers %>%
 glimpse(myStocks) # examine the structure of the resulting data frame
 ```
 
+
+
 Financial performance analysis depend on returns; If I buy a stock today for 100 and I sell it tomorrow for 101.75, my one-day return, assuming no transaction costs, is 1.75%. So given the adjusted closing prices, our first step is to calculate daily and monthly returns.
+
 
 
 ```{r calculate_returns, message=FALSE, warning=FALSE, cache=TRUE}
@@ -126,6 +131,7 @@ myStocks_returns_monthly <- myStocks %>%
                col_rename = "monthly_returns",
                cols = c(nested.col)) 
 ```
+
 
 ```{r}
 #visualise monthly returns since 2010, for each of the 30 DJIA stocks

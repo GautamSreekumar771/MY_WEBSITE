@@ -10,6 +10,7 @@
 
 
 
+<meta name="date" content="2021-09-30" />
 
 <title>A Year of Adventure</title>
 
@@ -164,7 +165,7 @@ pre code {
 
 
 <h1 class="title toc-ignore">A Year of Adventure</h1>
-<h4 class="date">2017-10-31T22:42:51-05:00</h4>
+<h4 class="date">2021-09-30</h4>
 
 </div>
 
@@ -174,19 +175,24 @@ pre code {
 <p>Next, let’s choose the <a href="https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average">Dow Jones Industrial Average (DJIA)</a> stocks and their ticker symbols and download some data. Besides the thirty stocks that make up the DJIA, we will also add <code>SPY</code> which is an SP500 ETF (Exchange Traded Fund).</p>
 <p>We will use the <code>rvest</code> package to scrape the Wikipedia page for the constituents of DJIA</p>
 <pre class="r"><code>djia_url &lt;- &quot;https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average&quot;
-#get tables that exist on URL
+
+
+# get tables that exist on URL
 tables &lt;- djia_url %&gt;% 
   read_html() %&gt;% 
   html_nodes(css=&quot;table&quot;)
+
+
 # parse HTML tables into a dataframe called djia. 
 # Use purr::map() to create a list of all tables in URL
 djia &lt;- map(tables, . %&gt;% 
                html_table(fill=TRUE)%&gt;% 
-               clean_names())</code></pre>
-</div>
-<div id="constituents" class="section level1">
-<h1>constituents</h1>
-<pre class="r"><code>table1 &lt;- djia[[2]] %&gt;% # the second table on the page contains the ticker symbols
+               clean_names())
+
+
+# constituents
+
+table1 &lt;- djia[[2]] %&gt;% # the second table on the page contains the ticker symbols
   mutate(date_added = ymd(date_added),
          
          # if a stock is listed on NYSE, its symbol is, e.g., NYSE: MMM
@@ -197,19 +203,13 @@ djia &lt;- map(tables, . %&gt;%
          ticker = ifelse(str_detect(symbol, &quot;NYSE*&quot;),
                           str_sub(symbol,7,11),
                           symbol)
-         )</code></pre>
-<pre><code>     )</code></pre>
-</div>
-<div id="we-need-a-vector-of-strings-with-just-the-30-tickers-spy-vix" class="section level1">
-<h1>we need a vector of strings with just the 30 tickers + SPY + VIX</h1>
-<p>tickers &lt;- table1 %&gt;% select(ticker) %&gt;% pull() %&gt;% # pull() gets them as a sting of characters c(“SPY”, “^VIX”) # and lets us add SPY, the SP500 ETF, and the VIX index</p>
-<pre><code>
-
-
-
-
-```r
-# Notice the cache=TRUE argument in the chunk options. Because getting data is time consuming, # cache=TRUE means that once it downloads data, the chunk will not run again next time you knit your Rmd
+         )
+# we need a vector of strings with just the 30 tickers + SPY  + VIX
+tickers &lt;- table1 %&gt;% 
+  select(ticker) %&gt;% 
+  pull() %&gt;% # pull() gets them as a sting of characters
+  c(&quot;SPY&quot;, &quot;^VIX&quot;) # and lets us add SPY, the SP500 ETF, and the VIX index</code></pre>
+<pre class="r"><code># Notice the cache=TRUE argument in the chunk options. Because getting data is time consuming, # cache=TRUE means that once it downloads data, the chunk will not run again next time you knit your Rmd
 myStocks &lt;- tickers %&gt;% 
   tq_get(get  = &quot;stock.prices&quot;,
          from = &quot;2000-01-01&quot;) %&gt;%
