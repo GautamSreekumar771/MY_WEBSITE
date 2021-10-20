@@ -1,15 +1,14 @@
 ---
-categories:
-- ""
-- ""
-date: "2021-09-30"
+title: "A Year of Adventure"
+date: '2021-09-30'
 description: Risk-Return of DJIA stocks
-draft: false
+draft: no
 image: spices.jpeg
-
-keywords: ""
+keywords: ''
 slug: risk_return
-title: A Year of Adventure 
+categories:
+- ''
+- ''
 ---
   
 
