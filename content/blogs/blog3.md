@@ -3,9 +3,9 @@ categories:
 - ""
 - ""
 date: "2017-10-31T22:26:13-05:00"
-#description: Nullam et orci eu lorem consequat tincidunt 
+description: Nullam et orci eu lorem consequat tincidunt 
 draft: false
-image: pic08.jpg
+image: pic08.jpeg
 keywords: ""
 slug: essays
 title: Living in India's only Communist State: Kerala
