@@ -95,7 +95,7 @@ params:
         url: blogs/pets
       - image: pic04.jpg
 #        subtitle: Nisl Sed Aliquam
-        title: R - Climat Change
+        title: R Climat Change
         url: home
 #      - image: pic05.jpg
 #        subtitle: Ipsum Dolor Sit Amet
