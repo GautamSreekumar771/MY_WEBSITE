@@ -8,8 +8,8 @@ params:
   banner:
     buttonText: Get Started
     subtitle: |-
-      An overview of Gautam's life, journey, and experience with R programming.
-  
+#      An overview of Gautam's life, journey, and experience with R programming.
+#  
     title: " Gautam Sreekumar, MFA 2022 " 
   blog: {}
   contact: 
@@ -18,13 +18,13 @@ params:
         country: UK
         street: Grove End Road
         title: Grove End House
-  buttonClear: Clear
-  buttonSend: Send message
-  email: 
+    buttonClear: Clear
+    buttonSend: Send message
+    email: 
       - email: gautamsreekumar771@gmail.com
         title: Email
-   enable: yes
-   phone:
+    enable: yes
+    phone:
       - phone: +44 7879931184
         title: Phone
   custom_css: []
@@ -35,7 +35,7 @@ params:
     text: Please visit [this page](/)
   favicon: favicon.ico
   footer:
-    copyright: Company Name
+    copyright: London Business School
     enable: yes
     quicklinks:
       - alt: HTML5 UP
