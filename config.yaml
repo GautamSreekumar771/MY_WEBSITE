@@ -16,11 +16,11 @@ params:
     address: 
       - city: London, NW89HR
         country: UK
-        street: Grove End Roadddd
+        street: Grove End Road
         title: Grove End House
     buttonClear: Clear
     buttonSend: Send message
-    email:
+    email: gautamsreekumar771@gmail.com
       - email: gautamsreekumar771@gmail.com
         title: Email
     enable: yes
