@@ -96,7 +96,7 @@ params:
       - image: pic04.jpg
 #        subtitle: Nisl Sed Aliquam
         title: R Climat Change
-        url: home
+        url: blogs/home
 #      - image: pic05.jpg
 #        subtitle: Ipsum Dolor Sit Amet
 #        title: Consequat
