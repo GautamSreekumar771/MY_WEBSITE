@@ -71,10 +71,10 @@ params:
         url: '#'
       - name: Blogs
         url: blogs
-#      - name: Generic Blog
-#        url: blogs/ipsum
-#      - name: Elements
-#        url: elements.html
+      - name: Generic Blog
+        url: blogs/ipsum
+      - name: Elements
+        url: elements.html
     menu: Menu
 #    subtitle: By HTML5 Up
     title: Personal Website
@@ -104,7 +104,7 @@ params:
 #      - image: pic06.jpg
 #        subtitle: Feugiat Amet Tempus
 #        title: Etiam
-#        url: blogs/ipsum
+#        url: blogs/essays
   two:
     buttonText: Get Started
     enable: yes
