@@ -7,7 +7,7 @@ date: "2017-10-31T22:26:13-05:00"
 draft: false
 image: pic08.jpg
 keywords: ""
-slug:essays
+slug: essays
 title: Living in India's only Communist State: Kerala
 ---
 
