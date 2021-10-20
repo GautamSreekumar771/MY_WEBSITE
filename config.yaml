@@ -20,11 +20,11 @@ params:
         title: Grove End House
 #    buttonClear: Clear
 #    buttonSend: Send message
-#   email: 
+   email: 
       - email: gautamsreekumar771@gmail.com
         title: Email
 #   enable: yes
-#    phone:
+    phone:
       - phone: +44 7879931184
         title: Phone
   custom_css: []
