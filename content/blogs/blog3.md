@@ -7,8 +7,8 @@ description: Nullam et orci eu lorem consequat tincidunt
 draft: false
 image: pic08.jpeg
 keywords: ""
-slug: essays
-title: Living in India's only Communist State: Kerala
+slug: essay
+title: Living in India's only Communist State,Kerala
 ---
 
 Nestled in the quaint hinterlands of the southernmost tip of India, Kerala is one of the twenty-eight states that cover the expanse of the South Asian subcontinent, also known colloquially as Bharatvarsha. Known for its sweltering summers and bucolic scenery, the State has been home to my forebears for over 100 years. Despite the vicarious love for my origins, I was never fortunate enough to reside in my hometown, Kidangoor, for an extended period — that was until the second wave of COVID derailed all my plans and forced me to reside in this hamlet for over three months and counting.

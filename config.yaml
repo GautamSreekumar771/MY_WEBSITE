@@ -71,10 +71,10 @@ params:
         url: '#'
       - name: Blogs
         url: blogs
-      - name: Generic Blog
-        url: blogs/ipsum
-      - name: Elements
-        url: elements.html
+#      - name: Generic Blog
+#        url: blogs/ipsum
+#      - name: Elements
+#        url: elements.html
     menu: Menu
 #    subtitle: By HTML5 Up
     title: Personal Website
@@ -86,9 +86,9 @@ params:
         title: LBS Journey
         url: blogs/lbs
       - image: pic03.jpg
-        subtitle: Feugiat Amet Tempus
+#        subtitle: Feugiat Amet Tempus
         title: Essay
-        url: blogs/essays
+        url: blogs/essay
       - image: pic02.jpg
 #        subtitle: Lorem Etiam Nullam
         title: Pets
