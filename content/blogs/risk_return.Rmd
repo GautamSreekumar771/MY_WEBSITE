@@ -6,11 +6,9 @@ draft: no
 image: spices.jpeg
 keywords: ''
 slug: climate
-categories:
-- ''
-- ''
+categories: null
 ---
-  
+
 
 
 ```{r, setup, include=FALSE}
@@ -28,7 +26,6 @@ knitr::opts_chunk$set(
 )
 ```
 
-```
 
 
 ```{r load-libraries, include=FALSE}
