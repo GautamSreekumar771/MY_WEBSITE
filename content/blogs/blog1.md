@@ -7,7 +7,7 @@ description: ""
 draft: false
 image: pic11.jpg
 keywords: ""
-slug: ipsum
+#slug: ipsum
 title: Ipsum
 ---
 
