@@ -5,7 +5,7 @@ description: Risk-Return of DJIA stocks
 draft: no
 image: spices.jpeg
 keywords: ''
-slug: risk_return
+slug: home
 categories:
 - ''
 - ''
