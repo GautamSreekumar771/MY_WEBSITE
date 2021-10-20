@@ -8,8 +8,8 @@ params:
   banner:
     buttonText: Get Started
     subtitle: |-
-#      An overview of Gautam's life, journey, and experience with R programming.
-#  
+      An overview of Gautam's life, journey, and experience with R programming.
+  
     title: " Gautam Sreekumar, MFA 2022 " 
   blog: {}
   contact: 
@@ -97,10 +97,10 @@ params:
 #        subtitle: Nisl Sed Aliquam
         title: R - Climate Change
         url: blogs/temp
-#      - image: pic05.jpg
+      - image: pic05.jpg
 #        subtitle: Ipsum Dolor Sit Amet
-#        title: Consequat
-#        url: blogs/ipsum
+        title: R - Youth Risk
+        url: blogs/yrisk
 #      - image: pic06.jpg
 #        subtitle: Feugiat Amet Tempus
 #        title: Etiam
